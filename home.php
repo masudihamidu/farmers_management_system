@@ -31,7 +31,6 @@ if(isset($_GET['logout'])){
 <body>
    
 <div class="container">
-
    <div class="profile">
       <?php
          $select = mysqli_query($conn, "SELECT * FROM `user_form` WHERE id = '$user_id'") or die('query failed');

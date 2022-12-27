@@ -198,6 +198,8 @@
    justify-content: space-between;
    margin-bottom: 20px;
    gap:15px;
+   height: 50vh;
+   overflow-y: scroll;
 }
 
 .update-profile form .flex .inputBox{
