@@ -57,7 +57,7 @@ if(isset($_POST['update_profile'])){
    <title>update profile</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -74,9 +74,9 @@ if(isset($_POST['update_profile'])){
    <form action="" method="post" enctype="multipart/form-data">
       <?php
          if($fetch['image'] == ''){
-            echo '<img src="images/default-avatar.png">';
+            echo '<img src="../images/default-avatar.png">';
          }else{
-            echo '<img src="uploaded_img/'.$fetch['image'].'">';
+            echo '<img src="../uploaded_img/'.$fetch['image'].'">';
          }
          if(isset($message)){
             foreach($message as $message){

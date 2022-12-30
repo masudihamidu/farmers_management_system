@@ -25,7 +25,7 @@ if(isset($_GET['logout'])){
    <title>home</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -38,9 +38,9 @@ if(isset($_GET['logout'])){
             $fetch = mysqli_fetch_assoc($select);
          }
          if($fetch['image'] == ''){
-            echo '<img src="images/default-avatar.png">';
+            echo '<img src="../images/default-avatar.png">';
          }else{
-            echo '<img src="uploaded_img/'.$fetch['image'].'">';
+            echo '<img src="../uploaded_img/'.$fetch['image'].'">';
          }
       ?>
       <h3><?php echo $fetch['name']; ?></h3>

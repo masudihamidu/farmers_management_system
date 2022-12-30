@@ -129,6 +129,39 @@
    padding:20px;
 }
 
+.subContainer{
+      padding:20px;
+      background-color: var(--white);
+      box-shadow: var(--box-shadow);
+      text-align: center;
+      width: 500px;
+      border-radius: 5px;
+}
+
+.index-box-container{
+   width: 100%;
+   max-width: 800px;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 28px;
+   margin: 0 28px;
+   border-radius: 5px;
+   box-shadow: inset;
+}
+
+.heading{
+   font-size: 26px;
+   font-weight: 600px;
+   text-align: center;
+   padding-bottom: 6px;
+   color: #fff;
+   text-shadow: 1px 1px 1px black;
+   border-bottom: solid 2px white;
+}
+
+.linksSpace{
+   padding-top: 50px;
+}
+
 .container .profile{
    padding:20px;
    background-color: var(--white);
